@@ -1,0 +1,8 @@
+{
+  "extra_esptool_args": { "chip": "esp32p4" },
+  "flash_files": {
+    "0x2000": "bootloader/bootloader.bin",
+    "0x8000": "partition_table/partition-table.bin",
+    "0x10000": "application.bin"
+  }
+}
